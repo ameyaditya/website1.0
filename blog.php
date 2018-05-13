@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="/Required css files/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/Required css files/jquery.min.css">
 	<link rel="stylesheet" type="text/css" href="/Required css files/bootstrap.min.js">
-	<link rel="stylesheet" type="text/css" href="blog1-s.css">
+	<link rel="stylesheet" type="text/css" href="blog-s.css">
 
 </head>
 <body>
