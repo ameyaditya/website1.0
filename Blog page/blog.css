@@ -173,4 +173,39 @@ body{
 	.main-content{
 		min-height: 300vh;
 	}
+	.picture-tiles{
+		grid-template-rows: repeat(26,1fr);
+		grid-template-columns: 1fr;
+		grid-gap: 2px;
+	}
+	.picture{
+		grid-column: 1 / span 1;
+	}
+	.one{
+		grid-row: span 3;
+		background-position: 0% 60%;
+	}
+	.two{
+		grid-row:span 3;
+		background-position: top;
+	}
+	.three{
+		grid-row:span 4;
+		background-position: center;
+	}
+	.four{
+		grid-row: span 5;
+		background-position: 0% 40%;
+	}
+	.five{
+		grid-row:span 5;
+		background-position: center;
+	}
+	.six{
+		grid-row:span 3;
+	}
+	.seven{
+		grid-row:span 3;
+		background-position: top;
+	}
 }
