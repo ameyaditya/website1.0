@@ -30,7 +30,11 @@
 .main{
 	display: grid;
 	grid-template-columns: 2fr 2fr 2fr 2fr;
+<<<<<<< HEAD
 	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+=======
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+>>>>>>> refs/remotes/origin/master
 	grid-gap: 20px;
 	margin-left: 250px;
 	//border: black solid 3px;
@@ -63,7 +67,7 @@ background-image: url('images/dream.jpeg');
 }
 .item-grid3{
 	grid-row-start: 1;
-	grid-row-end: 6;
+	grid-row-end: 7;
 	background-image: url('images/monsoon.jpeg');
 	background-size: cover;
 }
@@ -79,23 +83,37 @@ background-image: url('images/dream.jpeg');
 	grid-row-start: 4;
 	grid-row-end: 8;
 	grid-column-start: 2;
+<<<<<<< HEAD
 	grid-column-end: 4;
+=======
+        grid-column-end: 4;
+>>>>>>> refs/remotes/origin/master
 	background-image: url('images/music.jpg');
 	background-size: cover;
 }
 
 .item-grid6{
 	grid-row-start: 8;
+<<<<<<< HEAD
 	grid-row-end: 15;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	background-image: url('images/trees1.jpeg');
 	background-repeat: no-repeat;
+=======
+	grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 3;
+  
+	background-image: url('images/trees.jpeg');
+>>>>>>> refs/remotes/origin/master
 	background-size: cover;
 }
 .item-grid7{
-	grid-row-start: 6;
+	grid-row-start: 8;
 	grid-row-end: 13;
+        grid-column-start: 3;
+        grid-column-end: 5;
 	background-image: url('images/save you.PNG');
 	background-size: cover;
 }
