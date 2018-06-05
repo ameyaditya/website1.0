@@ -102,9 +102,6 @@ body{
 		width: 100%;
 		font-size: 0.8em;
 	}
-	.picture{
-		transition: all ease-in-out 300ms;
-	}
 	.nav-item{
 		display: inline-block;
 	}
@@ -122,9 +119,6 @@ body{
 		height: none;
 		width: 100%;
 		font-size: 0.8em;
-	}
-	.picture{
-		transition: all ease-in-out 300ms;
 	}
 	.nav-item{
 		display: inline-block;
