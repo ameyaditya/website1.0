@@ -1,4 +1,4 @@
-.carousel .item{
+.carousel .carousel-item{
 	max-height: 600px;
 }
 .item img{
@@ -9,15 +9,28 @@
 	margin-right: 0px;
 	position: absolute;
 	z-index: 999;
-	top:30px;
+	top:15px;
 	width: 100%;
 	background: none;
-	text-align: center;
+	text-align: left;
 }
 .navig button{
-	align-self: right;
+	//align-self: right;
 }
 .cari{
 	position: absolute;
 	top:0px;
+}
+@media screen and (max-width: 576px){
+	.navig{
+		position: relative;
+		top:0;
+		z-index:initial;
+		margin-bottom: 0;
+		align-content: left;
+		text-align: left;
+	}
+	.cari{
+		position: relative;
+	}
 }
