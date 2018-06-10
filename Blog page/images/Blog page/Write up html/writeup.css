@@ -1,0 +1,24 @@
+.writeuphead{
+	text-align: center;
+	background-color: white;
+}
+.navigation{
+	margin-bottom: 0px;
+}
+.hero-image{
+	background-image: url("../images/anxiety2.jpeg");
+	background-repeat: no-repeat;
+	min-height: 400px;
+	min-width: 100%;
+	background-size: cover;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-image h1{
+	color: black;
+	font-family: helvetica;
+	font-size: 6em;
+}
