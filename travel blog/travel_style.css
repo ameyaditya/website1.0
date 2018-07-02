@@ -39,10 +39,19 @@
 	border: 1px solid black;
 	display: inline-block;
 	padding: 10px;
+	margin: 
 }
-.content-area{
-	margin-top: 20px;
+.container{
+	margin-top: 40px;
 }
 .row > div:nth-child(odd){
 	background-color: #D5D5D5;	
+}
+.row > div{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 1em;
+}
+.row > div > h1{
+	size: 2em;
 }
