@@ -5,20 +5,43 @@
 .navigation{
 	margin-bottom: 0px;
 }
-.hero-image{
-	background-image: url("../images/anxiety2.jpeg");
-	background-repeat: no-repeat;
-	min-height: 800px;
-	min-width: 100%;
-	background-size: cover;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.hero-image h1{
-	color: black;
+.jumbotron{
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	text-shadow: 2px 2px #000;
 	font-family: helvetica;
-	font-size: 6em;
+}
+.bg-cover{
+	background-image: url("../images/anxiety2.jpeg");
+	color: white;
+	background-position: center center;
+	position: relative;
+	z-index: -2;
+	background-size: cover;
+}
+.overlay{
+	background-color: #000;
+	opacity: 0.5;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+}
+h1{
+	font-size: 8vw;
+}
+.content{
+	font-size: 1em;
+	text-align: center;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+@media screen and (max-width: 576px){
+	.jumbotron{
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
 }
