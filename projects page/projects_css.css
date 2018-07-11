@@ -1,4 +1,10 @@
 .background_image{
+	height: 100%;
+	//z-index: -2;
+	position: relative;
+}
+
+body{
 	background-image: url("images/back1.jpg");
 	background-size: cover;
 	background-position: center center;
@@ -6,10 +12,9 @@
 	height: 100%;
 	z-index: -2;
 	position: relative;
+	background-attachment: fixed;
 }
-body,html{
-	height: 100%;
-}
+
 .heading{
 	text-align: center;
 	padding-top: 20px;
@@ -29,8 +34,9 @@ body,html{
 }
 .col-md{
 	background-color: orange;
-	min-height: 100px;
-	margin: 20px;
+	opacity: 0.3;
+	max-height: 100vh;
+	margin: 15px;
 }
 .col-md > h1{
 	text-align: center;
