@@ -18,7 +18,7 @@ body{
 }
 .nav-item{
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	display: block;
 	padding: 6px 8px 6px 16px;
 	color: white;
@@ -55,6 +55,8 @@ body{
 	background-size: cover;
 	-webkit-filter:grayscale(100%);
 	filter: grayscale(100%);
+	position: relative;
+	cursor: pointer;
 }
 .picture:hover{
 	filter: none;
@@ -95,6 +97,23 @@ body{
 	background-image: url(images/save_you2.jpeg);
 }
 
+.content-title{
+	position: absolute;
+	bottom: -20%;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	padding: 10%;
+	opacity: 0;
+	background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1));
+	transition: bottom 0.5s ease;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.picture:hover .content-title{
+	bottom: 0%;
+	opacity: 1;
+}
 @media screen and (max-width: 991px){
 	.sidebar{
 		position: relative;
