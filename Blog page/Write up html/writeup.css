@@ -13,13 +13,30 @@
 	font-family: helvetica;
 }
 .bg-cover{
-	background-image: url("../images/anxiety2.jpeg");
 	color: white;
 	background-position: center center;
 	position: relative;
 	z-index: -2;
 	background-size: cover;
 }
+.bg-cover1{
+          background-image:  url("../images/anxiety2.jpeg");
+} 
+.bg-cover2{
+           background-image:  url("../images/dream.jpeg");
+}
+.bg-cover3{
+           background-image:  url("../images/monsoon2.jpeg");
+} 
+.bg-cover4{
+           background-image:   url("../images/music2.jpeg");
+}
+.bg-cover5{
+           background-image:  url("../images/sunshine.jpeg");
+}
+.bg-cover6{
+           background-image:  url("../images/trees1.jpeg");
+}        
 .overlay{
 	background-color: #000;
 	opacity: 0.5;
