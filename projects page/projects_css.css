@@ -1,0 +1,44 @@
+.background_image{
+	height: 100%;
+	//z-index: -2;
+	position: relative;
+}
+
+body{
+	background-image: url("images/back1.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100%;
+	z-index: -2;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.heading{
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+	position: relative;
+}
+.overlay{
+	background-color: #000;
+	opacity: 0.5;
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+
+}
+.col-md{
+	background-color: orange;
+	opacity: 0.3;
+	max-height: 100vh;
+	margin: 15px;
+}
+.col-md > h1{
+	text-align: center;
+	margin-bottom: 20px;
+}

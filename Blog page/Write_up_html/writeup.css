@@ -12,7 +12,12 @@
 	text-shadow: 2px 2px #000;
 	font-family: helvetica;
 }
+<<<<<<< HEAD:Blog page/Write up html/writeup.css
 .bg-cover{
+=======
+.bg-cover1{
+	background-image: url("../images/anxiety2.jpeg");
+>>>>>>> 6c654ed285d953fe16a4364d57849989b2d45be9:Blog page/Write_up_html/writeup.css
 	color: white;
 	background-position: center center;
 	position: relative;
