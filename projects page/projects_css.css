@@ -35,7 +35,7 @@ body{
 .col-md{
 	background-color: orange;
 	opacity: 0.3;
-	max-height: 100vh;
+	max-height: 75vh;
 	margin: 15px;
 }
 .col-md > h1{

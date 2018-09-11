@@ -1,0 +1,124 @@
+.sidebar a{
+	text-decoration: none;
+}
+.sidebar a:hover{
+	color: #708090;
+}
+.sidebar{
+	background-color: #f3f3f3;
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	text-align: left;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.nav-item{
+	text-decoration: none;
+	font-size: 1em;	
+	display: block;
+	padding: 6px 8px 6px 16px;
+	color: black;
+
+}
+.sidebar h1{
+	font-size: 1.7em;
+	margin-top: 20%;
+	margin-bottom: 10%;
+	color: #D5D5D5;
+	background-color: black;
+	padding: 5%;
+	text-align: center;
+}
+.main-content{
+	margin-left: 200px;
+	padding: 1%;
+	margin-top: 37px;
+}
+
+.heading{
+	min-height: 550px;
+}
+.trending-pic{
+	background-image: url("images/big_data.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 60vw;
+}
+.first-trending{
+	background-image: url("images/sample1.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 10vw;
+	width: 10vw;
+}
+.trending-side{
+	//padding-left: 5px;
+}
+.second-trending{
+	background-image: url("images/sample2.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 10vw;
+	width: 10vw;
+}
+.third-trending{
+	background-image: url("images/sample3.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 10vw;
+	width: 10vw;
+}
+.trending-side-row{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 550px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.article1-pic{
+	background-image: url("images/sample1.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 10vw;
+}
+.article2-pic{
+	background-image: url("images/sample2.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 10vw;
+}
+.article3-pic{
+	background-image: url("images/sample3.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 10vw;
+}
+.trending{
+	margin-bottom: 20px;
+	overflow: auto;
+}
+.art-row{
+	margin:1%;
+}
+.trending-side-row p{
+	//font-size: 1.3vw;
+}
+@media screen and (max-width: 1200px){
+	.trending-pic{
+		min-height: 60vw;
+	}
+}
