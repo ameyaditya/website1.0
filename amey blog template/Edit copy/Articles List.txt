@@ -1,0 +1,29 @@
+Travel Blog Posts:
+	Done
+	1. Kudremukha
+	
+	To Do
+	1. ShivGange trek
+	2. Kalchuki and Bhavi konda trek
+	3. Chikmaglur and Mullayangiri Trek
+Tech Posts:
+ 	Done
+	1. ITS
+	2. Paper Presentation
+	3. Big Data
+Projects:
+	Done
+	1. Boston Housing Prices
+	2. IAFO
+	3. Invitation
+	4. Ityukta
+	5. Sudoku Solver
+	
+	To Do
+	1. Online Shopping Application
+	2. Interactive Dictionary
+	3. Home Automation
+	4. AmbuCab
+	5. KCC Data Analysis
+	6. Smart Mirror
+
