@@ -18,11 +18,11 @@ Projects:
 	3. Invitation
 	4. Ityukta
 	5. Sudoku Solver
-	
+	6. Online Shopping Application
+	7. Interactive Dictionary
+	8. Home Automation
+
 	To Do
-	1. Online Shopping Application
-	2. Interactive Dictionary
-	3. Home Automation
 	4. AmbuCab
 	5. KCC Data Analysis
 	6. Smart Mirror
