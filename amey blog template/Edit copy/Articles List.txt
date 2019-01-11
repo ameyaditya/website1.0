@@ -21,9 +21,10 @@ Projects:
 	6. Online Shopping Application
 	7. Interactive Dictionary
 	8. Home Automation
+	9. Smart Mirror
 
 	To Do
 	4. AmbuCab
 	5. KCC Data Analysis
-	6. Smart Mirror
+	
 
